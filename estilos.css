@@ -1,44 +1,80 @@
-*{
+* {
     margin: 0px;
 }
-.imagen_y_nombre{
+
+.imagen_y_nombre {
     margin-top: 50px;
     text-align: center;
     justify-content: center;
 }
-.caja{
-    margin-left: 35%;
-    margin-right: 35%;
-    margin-top:80px; ;
+
+.caja {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 80px;
+
     border: 5px solid black;
     border-radius: 20px;
     padding: 20px;
     display: flex;
+    gap: 30px;
 }
-.email{
+
+.email {
     margin-top: 20px;
 }
-.contraseña{
+
+.contraseña {
     margin-top: 5px;
 }
-#user{
+
+#user {
     width: 90%;
     font-size: 25px;
 }
-#contrasena{
+
+#contrasena {
     width: 90%;
     font-size: 25px;
 }
-#boton{
+
+#boton {
     font-size: 20px;
 }
-#Borrar{
+
+#Borrar {
     font-size: 20px;
 }
-.separación{
+
+.separación {
     display: flex;
     gap: 10px;
 }
-.caja_caja{
+
+.caja_caja {
     background-color: azure;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.registro {
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#usuario {
+    width: 90%;
+    font-size: 25px;
+}
+
+#cont {
+    width: 90%;
+    font-size: 25px;
+}
+
+button {
+    width: 90%;
+    font-size: 20px;
 }
