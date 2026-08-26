@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+}
+.imagen_y_nombre{
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.caja{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top:80px; ;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+.email{
+    margin-top: 20px;
+}
+.contraseña{
+    margin-top: 5px;
+}
+#user{
+    width: 90%;
+    font-size: 25px;
+}
+#contrasena{
+    width: 90%;
+    font-size: 25px;
+}
+#boton{
+    font-size: 20px;
+}
+#Borrar{
+    font-size: 20px;
+}
+.separación{
+    display: flex;
+    gap: 10px;
+}
+.caja_caja{
+    background-color: azure;
+}

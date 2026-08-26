@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="codigo.js"></script>
 </head>
+
 <body>
-    
+    <div class="imagen_y_nombre">
+        <h1>Inicio de sesión</h1>
+    </div>
+    <hr>
+    <div class="fondo">
+        <div class="caja">
+            <div class="caja_caja">
+                <h3>Ingrese su usuario y contraseña para ingresar</h3>
+                <div class="email">
+                    <input id="user" type="text" placeholder="Usuario">
+                </div>
+                <div class="contraseña">
+                    <input id="contrasena" type="password" placeholder="contraseña">
+                </div>
+                <br>
+                <div class="separación">
+                    <div>
+                        <button onclick="IniciarSesion()" id="boton">Ingresar</button>
+                    </div>
+                    <div>
+                        <button type="reset" id="Borrar">Borrar</button>
+                    </div>
+                </div>
+                <p id="mensaje"></p>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
