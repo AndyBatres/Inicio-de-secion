@@ -8,3 +8,8 @@ if (usuario === "admin" && contrasena == "1234"){
     document.getElementById("mensaje").textContent = "Usuario y/o contraseña incorrecto"
 }
 }
+function reg(){
+    let usu = document.getElementById("usuario").value;
+    let cont = document.getElementById("cont").value;
+    if(usu != null && cont != null)
+}
